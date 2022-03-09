@@ -1,0 +1,84 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background: #1C1A22;
+    overflow: hidden;
+}
+.navbar{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 300;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    padding: 0 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* hero-area */
+.hero-area{
+    margin-top: 10vh;
+    padding:10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    padding-left: 15px;
+}
+.hero-text h1{
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.hero-text p{
+    font-size: x-large;
+    font-weight: 300;
+}
+.hero-text a{
+    border: solid 2px coral;
+    padding: 5px;
+    border-radius: 10px;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.socials a{
+    margin-bottom: 15px;
+}
+/* about me section */
+#aboutme{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.information{
+    padding: 5px;
+
+}
+.information p{
+    max-width: 600px;
+}
+.profile-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding:10px 20px;
+}
